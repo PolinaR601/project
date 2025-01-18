@@ -1,0 +1,18 @@
+@startuml
+start
+:**ввод** P;
+if (P <= 0 || P >= 50) then(да)
+:**вывод** Процент должен быть больше 0 и меньше 50;
+:return;
+endif
+:dailyDistance = 10.0;
+:totalDistance = 0.0;
+:day = 1;
+while (totalDistance <= 200) is(да)
+:totalDistance += dailyDistance;
+:dailyDistance *= (1 + P / 100);
+:day++;
+endwhile
+:**вывод** После скольки дней суммарный пробег составит сколько км; 
+stop
+@enduml

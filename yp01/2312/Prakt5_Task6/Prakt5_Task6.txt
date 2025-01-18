@@ -1,0 +1,13 @@
+@startuml
+start
+:n = data.get(0);
+:s = 1;
+:a=1;
+:b=1;
+while(int k=2; k <= n;k++) is(да)
+:s += a*(1.0/2*(Math.sqrt(b)+1.0/2*Math.sqrt(a)))*b*(2*Math.pow(a,2)+b);
+:**вывод** s;
+endwhile
+:**вывод**; 
+stop
+@enduml

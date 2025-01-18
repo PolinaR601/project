@@ -1,0 +1,21 @@
+@startuml
+start
+:**ввод** K;
+:res;
+switch (K)
+case (1)
+:res = "плохо";
+case (2)
+:res = "неудовлетворительно";
+case (3)
+:res = "удовлетворительно";
+case (4)
+:res = "хорошо";
+case (5)
+:res = "отлично";
+case (default)
+:res= ошибка;
+endswitch
+:**вывод** res;       
+stop
+@enduml

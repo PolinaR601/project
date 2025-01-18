@@ -1,0 +1,17 @@
+@startuml
+start
+:**ввод** A;
+:**ввод** B;
+if (A <= B) then(да)
+:**вывод** ошибка, A должно быть больше B;
+:return;
+endif
+:count = 0;
+:curLen = 0;
+while (curLen + B <= A) is(да)
+:curLen += B;
+:count ++;
+endwhile
+:**вывод** Кол-во отрезков B на отрезке A; 
+stop
+@enduml

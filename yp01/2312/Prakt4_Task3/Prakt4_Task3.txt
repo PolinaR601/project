@@ -1,0 +1,33 @@
+@startuml
+start
+:**ввод** elem;
+:**ввод** val;
+:a, c, h, s;
+switch (elem)
+case (1)
+:a = val;
+:c = a * Math.sqrt(2);
+:h = c / 2;
+:s = c * h / 2;
+case (2)
+:c = val;
+:a = c / Math.sqrt(2);
+:h = c / 2;
+:s = c * h / 2;
+case (3)
+:h = val;
+:c = 2 * h;
+:a = c / Math.sqrt(2);
+:s = c * h / 2;
+case (4)
+:s = val;
+:h = Math.sqrt(s);
+:c = 2 * h;
+:a = c / Math.sqrt(2);
+case( default)
+:**вывод** номер элемента должен быть в диапазоне 1-4;
+:return;
+endswitch      
+:**вывод** Катет a, гипотенуза c, высота h, площадь S; 
+stop
+@enduml

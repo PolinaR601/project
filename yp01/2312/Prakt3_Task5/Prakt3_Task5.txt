@@ -1,0 +1,15 @@
+@startuml
+start
+:**ввод** x;
+:**ввод** y;
+if (Math.pow(x,2)+Math.pow(y,2) < Math.pow(25,2) && y < -Math.abs(x) && y < Math.abs(x)) then(да)
+:**вывод** Да;
+else(нет) 
+if((Math.pow(x,2)+Math.pow(y,2) == Math.pow(25,2) || y == -Math.abs(x) || y == Math.abs(x))&& y<25&& x>-25 && x<25) then(да)
+:**вывод** На границе;
+else(нет)
+:**вывод** Нет;
+endif
+endif
+stop
+@enduml

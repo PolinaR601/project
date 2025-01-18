@@ -1,0 +1,17 @@
+@startuml
+start
+:**ввод** n;
+:max = 0;
+:hZo = false;
+while (int i = 1; i <= n; i++) is(да)
+:score = data.get(i);
+if (score > max) then(да)
+:max = score;;
+endif
+if (score == 0) then(да)
+:hZo = true;
+endif
+endwhile
+:**вывод** max + "\n" + (hZo ? "YES" : "NO"); 
+stop
+@enduml

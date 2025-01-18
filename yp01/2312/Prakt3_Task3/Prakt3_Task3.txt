@@ -1,0 +1,27 @@
+@startuml
+start
+:**ввод** firstNum;
+:**ввод** secondNum;
+:**ввод** thirdNum;
+:**ввод** fourthNum;
+if (firstNum != secondNum && firstNum != thirdNum && firstNum != fourthNum) then(да)
+:**вывод** Отличное число под №1;
+else(нет) 
+if(secondNum != firstNum && secondNum != thirdNum && secondNum != fourthNum) then(да)
+:**вывод** Отличное число под №2;
+else(нет)
+if (thirdNum != firstNum && thirdNum != secondNum && thirdNum != fourthNum) then(да)
+:**вывод** Отличное число под №3;
+else(нет)
+if (fourthNum != firstNum && fourthNum != secondNum && fourthNum != thirdNum) then(да)
+:**вывод** Отличное число под №4;
+else(нет)
+if (firstNum == secondNum && secondNum == thirdNum && thirdNum == fourthNum) then(да)
+:**вывод** Все числа равны;
+endif
+endif
+endif
+endif
+endif
+stop
+@enduml

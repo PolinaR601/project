@@ -1,0 +1,14 @@
+@startuml
+start
+:**ввод** n;
+:sum = 0;
+if (n<=0) then(да)
+:**вывод** Введены некорректные данные;
+else(нет)
+while (int i = 1; i <= n; i+=1) is(да)
+:sum+=2*i-1;
+endwhile
+:**вывод**; 
+endif
+stop
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+start
+:**ввод** N;
+if (N <= 0) then(да)
+:**вывод** Число должно быть положительным;
+:return;
+endif
+:count = 0;
+:sum = 0;
+:tempN = N;
+while (tempN > 0) is(да)
+:digit = tempN % 10;
+:sum += digit;
+:count++;
+:tempN /= 10;
+endwhile
+:**вывод** Кол-во цифр, сумма цифр; 
+stop
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+start
+:**ввод** x;
+:y;
+if (x > -Math.PI / 2 && x < Math.PI / 2) then(да)
+:y = Math.sqrt(Math.abs(Math.sin(x) + Math.pow(Math.tan(x), 2) / (3.5 * Math.cos(x))));
+else(нет) 
+if(x > Math.PI / 2 && x < Math.PI) then(да)
+: y = Math.cos(x/3) / (Math.sin(x) + Math.pow(Math.tan(x), 2));
+else(нет)
+:**вывод** x выходит за пределы определенных диапозонов;
+:return;
+endif
+endif
+:**вывод** y;
+stop
+@enduml

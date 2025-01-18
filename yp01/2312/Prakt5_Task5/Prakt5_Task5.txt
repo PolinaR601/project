@@ -1,0 +1,11 @@
+@startuml
+start
+:a = data.get(1);
+:n=data.get(0);
+:s=1;
+while (int k=1;k<=n;k++) is(да)
+:s*=a;
+endwhile
+:**вывод**; 
+stop
+@enduml

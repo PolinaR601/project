@@ -1,0 +1,15 @@
+@startuml
+start
+:**ввод** firstNum;
+:**ввод** secondNum;
+if (firstNum < secondNum) then(да)
+:**вывод** Наименьшее число под №1;
+else(нет) 
+if(secondNum < firstNum) then(да)
+:**вывод** Наименьшее число под №2;
+else(нет)
+:**вывод** Оба числа равны;
+endif
+endif
+stop
+@enduml
