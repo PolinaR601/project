@@ -19,7 +19,7 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="63dp"
+            android:layout_width="83dp"
             android:layout_height="200dp"
             android:layout_weight="1"
             tools:srcCompat="@drawable/first"
@@ -50,7 +50,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
-                    android:hint="0"
+                    android:hint="введите ответ"
                     android:textSize="16sp"
                     android:inputType="number"
                     android:minHeight="48dp"
