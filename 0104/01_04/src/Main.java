@@ -43,9 +43,9 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("1 - сложение в 2 \n" +
-                            "2 - сложение в 16\n" +
+                            "2 - сложение в 16(не работает)\n" +
                             "3 - вычитание в 2 \n" +
-                            "4 - вычитание в 16\n");
+                            "4 - вычитание в 16(не работает)\n");
                     deistv = in.nextInt();
                     System.out.println("Введите 1 число");
                     chislo1 = in.next();
