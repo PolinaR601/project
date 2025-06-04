@@ -1,0 +1,14 @@
+.per {
+    line-height: 100%;
+}
+.vtor {
+    line-height: 150%;
+}
+.tret {
+    line-height: 200%;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

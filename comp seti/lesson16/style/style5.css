@@ -1,0 +1,20 @@
+.per {
+    letter-spacing: normal;
+}
+.vtor {
+    letter-spacing: -1px;
+}
+.tret {
+    letter-spacing: 1px;
+}
+.chet {
+    word-spacing: -1px;
+}
+.piat {
+    word-spacing: 1px;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

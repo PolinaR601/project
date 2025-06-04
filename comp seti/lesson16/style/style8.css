@@ -1,0 +1,21 @@
+.per, .vtor, .tret, .chet {
+    display: block;
+    margin-bottom: 20px;
+}
+.per {
+    text-align: left;
+}
+.vtor {
+    text-align: right;
+}
+.tret {
+    text-align: center;
+}
+.chet {
+    text-align: justify;
+}
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

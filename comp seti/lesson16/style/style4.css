@@ -1,0 +1,18 @@
+.pervoe {
+    text-decoration: underline;
+}
+.vtoroe {
+    text-decoration: overline;
+}
+.tretie {
+    text-decoration: line-through;
+}
+.chetvertoe {
+    text-decoration: underline line-through;
+}
+.piatoe {
+    text-decoration: none;
+}
+p {
+    line-height: 30px;
+}
